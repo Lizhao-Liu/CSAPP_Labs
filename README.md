@@ -1,12 +1,11 @@
 # CSAPP_Labs
 Notes for Labs for Computer Systems: A Programmer's Perspective
-记录csapp实验学习历程和心得
 
 # Content
 
 - [Content](#Content)
 - [Website](#Website)
-- [Development Environemnt](#Development Environment)
+- [Development Environment](#Development Environment)
 - [Lab Progress](#Lab Progress)
 - [Reference](#Reference)
 
