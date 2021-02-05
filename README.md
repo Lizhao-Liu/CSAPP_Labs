@@ -5,7 +5,7 @@ Notes for Labs for Computer Systems: A Programmer's Perspective
 
 - [Content](#Content)
 - [Website](#Website)
-- [Development Environment](#Development Environment)
+- [Environment](#Environment)
 - [Progress](#Progress)
 - [Reference](#Reference)
 
@@ -14,7 +14,7 @@ Notes for Labs for Computer Systems: A Programmer's Perspective
 [Lab Website](http://csapp.cs.cmu.edu/3e/labs.html)
 
 
-# Development Environment
+# Environment
 
 Linux : Using Docker to build a lightweight Linux environment
 
