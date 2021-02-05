@@ -6,7 +6,7 @@ Notes for Labs for Computer Systems: A Programmer's Perspective
 - [Content](#Content)
 - [Website](#Website)
 - [Development Environment](#Development Environment)
-- [Lab Progress](#Lab Progress)
+- [Progress](#Progress)
 - [Reference](#Reference)
 
 
@@ -50,7 +50,7 @@ sudo apt-get install gdb
 ```
 
 
-# Lab Progress
+# Progress
 - [x] [Data Lab](https://github.com/Lizhao-Liu/CSAPP_Labs/tree/main/Data%20Lab)
 - [x] [Bomb Lab](https://github.com/Lizhao-Liu/CSAPP_Labs/tree/main/Bomb%20Lab)
 - [ ] [Attack Lab]
