@@ -469,7 +469,7 @@ int main() {
 
 9 15 14 5 6 7
 ```
-我们再把偏移值作为[ASCII](https://computersciencewiki.org/images/3/3d/Ascii_table.png)字符的低四位，构造成可输入的字符。我这里是分别加上80(01010000)，构成第五个字符串`Y_^UVW`。
+我们再把偏移值作为[ASCII](https://computersciencewiki.org/images/3/3d/Ascii_table.png)字符的低四位，构造成可输入的字符。我这里是分别加上80(01010000)，构成第五个字符串`Y_^UVW` or `ionefg`。
 
 第五个💣拆除。
 
