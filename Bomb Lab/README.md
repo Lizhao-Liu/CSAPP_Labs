@@ -441,14 +441,14 @@ End of assembler dump.
 ```
 先检查字符串长度是否为6，如果长度不为6直接引爆炸弹。取出字符串的第一个字符与0xf相与，取出字符的第四位作为偏移量。取出`0x4024b0+偏移量`地址指向的字节内容赋给栈空间。循环从第一个字符到第6个字符，最后将字符串与`0x40245e`地址指向的字符串比较，如果相等成功解除炸弹否则引爆。
 
-我们查看两个地址指向的内容。
+查看两个地址指向的内容。
 ```bash
 (gdb) x/s 0x4024b0
 0x4024b0 <array.3449>:	"maduiersnfotvbylSo you think you can stop the bomb with ctrl-c, do you?"
 (gdb) x/s 0x40245e
 0x40245e:	"flyers"
 ```
-我们从长字符串选出组成`"flyers"`，可以使用程序代码帮助我们写出偏移值。
+从长字符串选出组成`"flyers"`，可以使用程序代码帮助我们写出偏移值。
 ```cpp
 #include <iostream>
 #include <string>
@@ -626,5 +626,5 @@ End of assembler dump.
 ## Recitation Video
 [Recitation Video](https://www.youtube.com/watch?v=rb-RNYhHNSc&list=PL4YtNpAhVHFJVlaD203_8JkUOUT8RYUhY&index=29)
 
-## vlog
-[vlog]()
+## Reflection
+[vlog](https://github.com/Lizhao-Liu/CSAPP_Labs/blob/main/Bomb%20Lab/vlog.mp4)
